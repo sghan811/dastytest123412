@@ -1,0 +1,189 @@
+/* sijak */
+.home {
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 60rem;
+  margin: 0 auto;
+}
+.contentbox {
+}
+.contentbox button {
+  background: none;
+  border: none;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.contentsub {
+  margin: 0 auto;
+  max-width: 15rem;
+}
+/* #region status */
+.status {
+  background-color: white;
+  padding: 0.5rem 25px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin: 2rem 0rem 0rem 0rem;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.16);
+}
+
+.status .statusBtn {
+  color: gray;
+  background: none;
+  border: none;
+  padding: 0 10px;
+  text-align: left;
+  /* margin: 0 5px; */
+  /* margin-left: 3px; */
+}
+
+/* #endregion */
+
+/* #region Posts */
+
+/* #endregion */
+
+/* #region Post card's header */
+.posts .card_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 3%;
+}
+
+.posts .card_header .card_name {
+  margin: auto 0;
+  font-size: 0.5rem;
+}
+
+.posts .card_header .dropdown-menu {
+  position: absolute;
+  left: inherit !important;
+  right: 0;
+}
+
+.posts .card_header .dropdown-item {
+  display: flex;
+  margin: 5px 0;
+}
+
+.posts .card_header .dropdown-item:hover {
+  background: var(--pink);
+}
+
+.posts .card_header #moreLink {
+  color: var(--c1);
+}
+
+/* #endregion */
+
+/* #region Post card's body */
+.posts .card_body-content {
+  padding: 0 25px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.posts .buttons-box {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.content-textedL button {
+  border-radius: 0px 15px 15px 0px;
+  background: #d9c6ff;
+  width: 98%;
+  height: 128px;
+  /* margin-right: 6px; */
+  outline: 0;
+  border: 10px;
+  outline: 0;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+}
+
+.content-textedR button {
+  border-radius: 15px 0px 0px 15px;
+  background: #c2ffee;
+  width: 98%;
+  height: 128px;
+  /* margin-left: 6px; */
+  border: 10px;
+  outline: 0;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+}
+
+.file_imgs {
+  align-items: center;
+}
+.file_imgs img {
+  border-radius: 0.5rem;
+  max-width: 20rem;
+  max-height: 20rem;
+}
+.posts .card_body-content .readMore {
+  /* color: crimson; */
+  cursor: pointer;
+}
+
+/* #endregion  */
+
+/* #region Post card's footer */
+.posts .card_icon_menu {
+  padding-bottom: 7.5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.posts .card_icon_menu i {
+  font-size: 28px;
+  /* margin: 10px; */
+}
+
+.posts .card_icon_menu img {
+  width: 28px;
+  height: 28px;
+  transform: translate(5px, 10px);
+  opacity: 0.9;
+}
+/* #endregion  */
+
+.posts .card_footer {
+  font-size: 1rem;
+}
+
+.footer_like {
+  padding-left: 3px;
+}
+
+.footer_comments {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer_anchor {
+  padding-right: 3px;
+}
+.total {
+  padding: 0;
+}
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff%27")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.title {
+  font-size: 35px;
+}
